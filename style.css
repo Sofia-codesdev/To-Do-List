@@ -1,0 +1,111 @@
+body{
+    margin:0;
+    min-height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: bisque;
+}
+.head-block{
+    background-color: black;
+    border: 2px solid blue;
+    border-radius: 20px;
+    width: 100%;
+    max-width: 500px;
+    padding: 30px 40px;
+    box-sizing: border-box;
+    color:aliceblue;
+    font-family: Arial, sans-serif;
+}
+.head-block h1{
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 25px;
+    font-size: 35px;
+}
+.input{
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 25px;
+}
+#input1{
+    height: 30px;
+}
+#button{
+    height: 37px;
+    background-color: rgb(44, 44, 213);
+    border:none;
+    border-radius: 5px;
+    color:black;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+}
+.task-list h2{
+    margin-top: 0px;
+    margin-bottom: 25px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+}
+.task-item{
+    display: flex;
+    flex-direction: inline;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+    border: 2px solid white;
+    border-radius: 8px;
+    margin-top: 0px;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+.task-item p{
+    flex:1;
+    margin:0;
+    font-size:18 px;
+}
+.task-item p.checked {
+    text-decoration: line-through;
+    color: #5e615f;
+}
+.task-item input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    accent-color: #3b5998;
+}
+.task-item button {
+    background: none;
+    border: none;
+    color: #ff4a4a;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.task-item button:hover {
+    text-decoration: underline;
+}
+
+
+.task-item input[type="text"] {
+    flex: 1;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.counter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 25px;
+    padding-top: 20px;
+    border-top: 2px solid #3b5998; 
+    font-size: 18px;
+}
+
+.counter p {
+    margin: 0;
+}
